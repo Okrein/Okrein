@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../../styles";
 import { ComputersCanvas } from "./canvas";
 
-import photo from '../../assets/photo.jpg';
+import Photo from '../../assets/Photo.jpg';
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
@@ -12,7 +12,7 @@ const Hero = () => {
       mx-auto flex flex-row items-start gap-5`}
       >
         <motion.img
-          src={photo}
+          src={Photo}
           alt="Emmanuella Ntchinou"
           className="w-32 h-32 md:w-48 md:h-48 rounded-full shadow-lg border-4 border-blue-400 mr-4"
           initial={{ opacity: 0, x: -50 }}
